@@ -1,0 +1,266 @@
+.banner{
+	width:100%;
+	height:667px;
+	background-color: #040830;
+}
+.banner>.content {
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.banner_title {
+	width: 421px;
+}
+
+.banner_title>h2 {
+	font-size: 36px;
+	font-weight: 500;
+	font-style: italic;
+	color: #FFFFFF;
+	margin-bottom: 31px;
+}
+
+.banner_title>h4 {
+	font-size: 14px;
+	font-weight: 400;
+	color: #FFFFFF;
+	line-height: 28px;
+	opacity: 0.6;
+}
+
+.banner_tight_img {
+	margin-top: 92px;
+	width: 675px;
+	height: 631px;
+}
+
+.banner_tight_img>img {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.btns{
+	margin-top: 94px;
+	display: flex;
+	line-height: 46px;
+	text-align: center;
+}
+.register{
+	width:100px;
+	height:46px;
+	background-color: #0056FF;
+	border-radius: 23px;
+	color:#FFFFFF;
+	margin-right:19px;
+}
+.contact{
+	width:147px;
+	height:46px;
+	background-color: #262288;
+	color:#FFFFFF;
+	border-radius: 23px;
+}
+/* banner结束*/
+.cate_list{
+	margin:50px 0;
+}
+.cate_list_i{
+	display: flex;
+	margin: 20px 0;
+}
+.cate_lis_title{
+	font-size: 14px;
+	font-weight: bold;
+	color: #34404E;
+	opacity: 0.79;
+	padding: 5px 11px;
+	margin-right: 28px;
+}
+
+.cate_list_item{
+	display: flex;
+}
+.cate_list_item>li{
+	padding:5px 11px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #727880;
+	opacity: 0.79;
+	margin-right: 37px;
+}
+.cate_list_item>.all{
+	background-color: #0055FF;
+	color:#FFFFFF;
+	border-radius: 24px;
+}
+/* main */
+
+.main_list{
+	margin: 45px 0;
+}
+.tit_img{
+	display: flex;
+	align-items: center;
+}
+.video_img{
+	width:45px;
+	height: 45px;
+	display: block;
+}
+.voice_img{
+	width:29px;
+	height:29px;
+	display: block;
+	margin-right: 5px;
+}
+.text_img{
+	width:31px;
+	height:31px;
+	display: block;
+	margin-right: 5px;
+}
+.tit_img>div{
+	font-size: 24px;
+	font-weight: 500;
+	color: #34404E;
+}
+.video_data_list{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+.video_data_list_item{
+	width:23%;
+	height:auto;
+	margin:24px 20px 24px 0;
+	background-color: #FFFFFF;
+	overflow: hidden;
+}
+.cover{
+	width:100%;
+	height:auto;
+	display: block;
+}
+.data_desc{
+	width:100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 10px 18px;
+	box-sizing: border-box;
+}
+.data_desc_title{
+	line-height: 30px;
+}
+.up{
+	margin-right: 44px;
+}
+.up>p{
+	font-size: 14px;
+	font-weight: 500;
+	color: #DCDBDB;
+	margin-right: 5px;
+}
+/* 登录 */
+.container{
+	min-height:832px;
+	margin-top: 72px;
+ 	display: flex;
+	justify-content: space-between;
+}
+.per_aside{
+	width:20%;
+	min-height:832px;
+	padding:48px 0px;
+	box-sizing: border-box;
+	background-color: #FFFFFF;
+}
+.per_aside>div{
+	height:61px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+.current_tabs{
+	background-color: #F3F3F3;
+	border-right: 2px solid #0055FF;
+}
+.per_aside>div>img{
+	width:41px;
+	height:41px;
+	display: block;
+	margin-left: 20px;
+}
+.per_main{
+	width:76%;
+	min-height:832px;
+	background-color: #FFFFFF;
+	padding: 71px 67px;
+	box-sizing: border-box;
+}
+.tene{
+	display: flex;
+	align-items: center;
+	margin-bottom: 45px;
+}
+.lab{
+	font-size: 18px;
+	font-weight: 500;
+	color: #34404E;
+	margin-right: 36px;
+}
+.ava{
+	width:91px;
+	height:91px;
+	display: block;
+}
+
+.int{
+	width:350px;
+	height:44px;
+	position: relative;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+.int:after{
+	content: "昵称不得超过20个字符以内，允许汉字、英文、字符任意";
+	width:200px;
+	height:30px;
+	background-color: #0056FF;
+	position: absolute;
+	top:50px;
+	left: 0;
+	font-size: 14px;
+	font-weight: 400;
+	color: #34404E;
+	opacity: 0.5;
+}
+.login_int{
+	width: 298px;
+	height: 40px;
+	background: #FFFFFF;
+	border: 1px solid #DAE5E6;
+	border-radius: 4px;
+	margin-bottom: 22px;
+}
+.login_int>input{
+	width:100%;
+	height:100%;
+	outline: none;
+	border: none;
+	padding-left: 12px;
+	box-sizing: border-box;
+}
+.saveinfo{
+	width: 100px;
+	height: 46px;
+	background: #0055FF;
+	border-radius: 23px;
+	color:#FFFFFF;
+	line-height: 46px;
+	text-align: center;
+	font-size: 18px;
+	cursor: pointer;
+}

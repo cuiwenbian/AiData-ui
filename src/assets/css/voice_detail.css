@@ -1,0 +1,282 @@
+/* 语音详情 */
+.banner_img {
+	width: 100%;
+	height: 458px;
+	display: block;
+	background-image: url(../image/banner_voice.png);
+	background-size: 100% 100%;
+	position: relative;
+}
+
+.banner_card {
+	width: 63%;
+	height: 402px;
+	position: absolute;
+	top: 172px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.banner_card_left {
+	width: 50%;
+	height: 100%;
+	background-color: #727880;
+	background-image: url(../image/card_bg.png);
+	background-size: 100% 100%;
+	border-radius: 15px;
+	/* overflow: hidden; */
+}
+
+.banner_card_right {
+	width: 50%;
+	height: 100%;
+	background-color: #727880;
+	background-image: url(../image/bj2.png);
+	background-size: 100% 100%;
+	border-radius: 15px;
+	/* overflow: hidden; */
+}
+
+.de_infomation {
+	width: 100%;
+	height: 100%;
+	padding: 0px 64px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+
+.de_info_list {
+	display: flex;
+	align-items: center;
+	height: 30%;
+	border-bottom: 1px solid #D8D8D8;
+}
+
+.de_info_list:last-child {
+	border: none;
+}
+
+.de_info_list>h3 {
+	font-size: 24px;
+	font-weight: 800;
+	color: #343434;
+	line-height: 34px;
+}
+
+.de_info_list>div {
+	font-size: 16px;
+	font-weight: bold;
+	color: #343434;
+	line-height: 34px;
+}
+
+.info_list_desc {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 20px 0;
+	box-sizing: border-box;
+
+}
+
+.info_list_desc_i {
+	width: 100%;
+	height: 50%;
+	display: flex;
+	align-items: center;
+}
+
+.info_list_desc_i>div {
+	width: 50%;
+	float: left;
+}
+
+.info_list_desc_i>div>span {
+	color: #24945C;
+}
+
+.down {
+	width: 159px;
+	height: 46px;
+	border-radius: 23px;
+	background-color: #0056FF;
+	border: none;
+	color: #FFFFFF;
+	cursor: pointer;
+	user-select: none;
+	outline: none;
+}
+
+.down_free {
+	width: 159px;
+	height: 46px;
+	border-radius: 23px;
+	background-color: none;
+	border: 1px solid #0056FF;
+	color: #0056FF;
+	cursor: pointer;
+	user-select: none;
+	outline: none;
+	margin-left: 20px;
+}
+
+.mt {
+	margin-top: 179px;
+}
+
+.mt>h2 {
+	font-size: 24px;
+	font-weight: 500;
+	color: #34404E;
+}
+
+.mt>.text {
+	width: 100%;
+	height: auto;
+	padding: 27px 55px 32px 19px;
+	box-sizing: border-box;
+	border: 1px solid #DBDBDB;
+	margin-bottom: 59px;
+}
+
+.date_rule {
+	display: flex;
+	justify-content: space-between;
+	margin: 49px 0 78px;
+}
+
+.date_rule>.on {
+	padding: 39px 24px 48px 24px;
+	box-sizing: border-box;
+	border: 1px solid rgba(84, 84, 84, 0.43);
+	border-radius: 15px;
+	display: flex;
+}
+
+.on>.l>img {
+	width: 85px;
+	height: 85px;
+	display: block;
+}
+
+.on>.r {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding-left: 24px;
+	box-sizing: border-box;
+}
+
+.on>.r>p {
+	font-size: 24px;
+	font-weight: 800;
+	color: #34404E;
+}
+
+.on>.r>p:last-child {
+	font-size: 16px;
+	font-weight: 400;
+	color: #34404E;
+	opacity: 0.61;
+}
+
+.text_area {
+	width: 100%;
+	height: 148px;
+	background: #FFFFFF;
+	border: 1px solid #DBDBDB;
+	margin: 27px 0 31px;
+
+}
+
+.text_area>textarea {
+	width: 100%;
+	height: 100%;
+	border: none;
+	font-size: 14px;
+	color: #444242;
+	padding: 23px 19px;
+	box-sizing: border-box;
+}
+
+.text_area>textarea:focus {
+	border: none;
+	outline: none;
+}
+
+.tx_b {
+	display: flex;
+	align-items: center;
+	margin-bottom: 86px;
+}
+
+.share_btn {
+	width: 159px;
+	height: 46px;
+	border-radius: 23px;
+	background-color: #0056FF;
+	border: none;
+	color: #FFFFFF;
+	cursor: pointer;
+	user-select: none;
+	outline: none;
+	margin-right: 28px;
+
+}
+
+.share_tip {
+	color: #027AFF;
+	font-size: 14px;
+}
+
+.share_content {
+	margin-top: 78px;
+	width: 100%;
+	height: auto;
+}
+
+.comments_list {
+	width: 100%;
+	height: auto;
+	margin-top: 70px;
+	margin-bottom: 67px;
+	display: flex;
+}
+
+.critics {
+	width: 66px;
+	height: 66px;
+}
+
+.critics>img {
+	width: 66px;
+	height: 66px;
+	display: block;
+}
+
+.critics_info {
+	margin-left: 19px;
+}
+
+.username {
+	font-size: 20px;
+	font-weight: bold;
+	color: #343434;
+	line-height: 48px;
+}
+
+.createtime {
+	font-size: 14px;
+	font-weight: 400;
+	color: #343434;
+	line-height: 48px;
+}
+
+.comment {
+	font-size: 14px;
+	font-weight: 400;
+	color: #DF9C32;
+	line-height: 31px;
+}
